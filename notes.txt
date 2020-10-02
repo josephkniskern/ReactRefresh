@@ -1,0 +1,17 @@
+Conditional Render 
+
+renderItems() {
+  if (this.state.items === 0) return <p>"no items"<p>
+  return <ul>{this.state.items}<ul>
+}
+
+<div>
+{this.state.items === 0 && "no items"} // true returns "str" false returns null
+<div>
+
+
+##################
+
+Event Handler w args
+
+onClick={() => renderItems(args)}
