@@ -15,3 +15,8 @@ renderItems() {
 Event Handler w args
 
 onClick={() => renderItems(args)}
+
+#######################
+
+handleEvents need an ID to target element to change
+i.e. handleDelete(elementId)
